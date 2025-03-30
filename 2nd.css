@@ -1,0 +1,74 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('aincrad.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+a:hover{
+    
+    
+    color: #e917cd; 
+    box-shadow: 0 0 20px rgba(178, 8, 230, 0.5);
+    
+}
+
+header {
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    background-image: url('aincrad.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12%;
+    background: rgba(255, 255, 255, 0.9);
+    
+}
+section:hover {
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: #000000; 
+    box-shadow: 0 0 20px rgba(178, 8, 230, 0.5);
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(51, 51, 51, 0.8); 
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-image: url('/img/aincrad.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
